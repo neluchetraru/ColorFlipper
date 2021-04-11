@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 20% 0 10%;
+  height: 10vh;
+  border-bottom: 2px inset #194350;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .menu a:last-child {
+  margin-left: 40px;
+}
+
+.header .menu {
+  margin-left: auto;
+}
+
+.header .menu a {
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  color: #194350;
+}
+
+.header h1 a {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #194350;
+}
+
+.header a:hover {
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.header a.btn-active {
+  color: white;
+  background-color: #194350;
+  padding: 7px 15px;
+  border-radius: 13px;
+  font-weight: 400;
+}
+
+.header a.btn-active:hover {
+  color: white;
+  background-color: #276172;
+  transition: ease-in-out all 0.2s;
+}
+
+.main {
+  min-height: 90vh;
+  background-color: #f39189;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.main .content span {
+  color: #f39189;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.content {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.13);
+  padding: 20px 0 30px;
+  border-radius: 10px;
+}
+
+.background-info {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  color: white;
+  background-color: #194350;
+  padding: 10px 25px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-generate {
+  cursor: pointer;
+  background-color: rgb(238, 237, 237);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 7px 13px;
+  font-size: 14px;
+  margin-top: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-generate:hover {
+  background: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border: white 2px solid;
+}
+
+.background-effect {
+  opacity: 0.95;
+  transition: all 0.5s ease-in-out;
+}
