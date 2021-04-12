@@ -32,6 +32,7 @@ function generate_random(id) {
   }
   main.style.backgroundColor = color;
   color_info.textContent = color;
+  // color_info.style.color = color;
 }
 
 function start_ui() {

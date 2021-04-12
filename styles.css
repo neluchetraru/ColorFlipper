@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 20% 0 10%;
-  height: 10vh;
+  min-height: 10vh;
   border-bottom: 2px inset #194350;
 }
 
@@ -94,6 +94,7 @@ body {
   padding: 10px 25px;
   border-radius: 8px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .btn-generate {
@@ -117,4 +118,20 @@ body {
 .background-effect {
   opacity: 0.95;
   transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header .menu {
+    margin: 25px auto 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    font-size: 70%;
+  }
 }
