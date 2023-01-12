@@ -1,5 +1,3 @@
-# Random RGB and Color generator using Javascript
+# Simple Color Generator using HTML, CSS and JS
 
-
-## Try it out
 > https://neluchetraru.github.io/ColorFlipper/
